@@ -1,6 +1,6 @@
 # Hello
 
-Welcome to my blog. My name is Ed.<br>
-I'm very interested in the web front-end development.
+🤗 Welcome to my blog. My name is Minmi.<br>
+🤔 I'm very interested in the web back-end development.
 
-Visit my [Github repository](https://github.com/sungik-choi/gatsby-starter-apple).
+Visit my [Github repository](https://github.com/minji0123).
