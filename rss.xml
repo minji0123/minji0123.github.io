@@ -1,4 +1,391 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Minmi G's RSS Feed]]></title><description><![CDATA[Minmi's Blog]]></description><link>https://minji0123.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 22 May 2022 15:37:52 GMT</lastBuildDate><item><title><![CDATA[개발자가 첫 직장에서 이직을 결심하게 된 계기]]></title><description><![CDATA[Category Test]]></description><link>https://minji0123.github.io/blog/category-test/</link><guid isPermaLink="false">https://minji0123.github.io/blog/category-test/</guid><pubDate>Sun, 22 May 2022 03:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Category Test&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Minmi G's RSS Feed]]></title><description><![CDATA[Minmi's Blog]]></description><link>https://minji0123.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 May 2022 14:19:42 GMT</lastBuildDate><item><title><![CDATA[마크다운 (md) 작성하기_2. md, html 혼용]]></title><description><![CDATA[md, html 혼용 reference]]></description><link>https://minji0123.github.io/blog/20220525/</link><guid isPermaLink="false">https://minji0123.github.io/blog/20220525/</guid><pubDate>Wed, 25 May 2022 03:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;md, html 혼용&lt;/h1&gt;
+&lt;h2 id=&quot;table-of-contents&quot;&gt;🔎 목차&lt;/h2&gt;
+&lt;details open=&quot;open&quot;&gt;
+  &lt;summary&gt; 목차&lt;/summary&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;#01&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 이미지_image&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#02&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 하이퍼링크_hyperlink&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#03&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 글자색 변경_color&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#04&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 링크_link&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/details&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;01&quot;&gt;👀 이미지_image&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre&gt;&lt;code class=&quot;language-md&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;02&quot;&gt;👀 하이퍼링크_hyperlink&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre&gt;&lt;code class=&quot;language-md&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;03&quot;&gt;👀 글자색 변경_color&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre&gt;&lt;code class=&quot;language-md&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;reference&lt;/h2&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[마크다운 (md) 작성하기_1. 순수 md 언어]]></title><description><![CDATA[순수 md 언어 This is an h1 This is an h2 This is an h3 This is an h4 This is an h5 This is an h6 This is an italic This is an bold This is an…]]></description><link>https://minji0123.github.io/blog/20220524/</link><guid isPermaLink="false">https://minji0123.github.io/blog/20220524/</guid><pubDate>Tue, 24 May 2022 03:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;순수 md 언어&lt;/h1&gt;
+&lt;h2 id=&quot;table-of-contents&quot;&gt;🔎 목차&lt;/h2&gt;
+&lt;details open=&quot;open&quot;&gt;
+  &lt;summary&gt; 목차&lt;/summary&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;#01&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 헤더_header&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#02&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 글자 스타일_text style&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#03&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 수평선_horizn&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#04&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 링크_link&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#05&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 목록_list&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#06&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 체크박스_checkBox&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#07&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 인용_blockquote&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#08&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 코드_Code&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#09&quot; style=&quot;color:#E5C1C5&quot;&gt;👀 표_table&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/details&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;01&quot;&gt;👀 헤더_header&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;md&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-1&quot;&gt;# &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-5&quot;&gt;This is an h1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-1&quot;&gt;## &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-5&quot;&gt;This is an h2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-1&quot;&gt;### &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-5&quot;&gt;This is an h3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-1&quot;&gt;#### &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-5&quot;&gt;This is an h4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-1&quot;&gt;##### &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-5&quot;&gt;This is an h5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-1&quot;&gt;###### &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-tiszgT-b grvsc-t4tStz-5&quot;&gt;This is an h6&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1&gt;This is an h1&lt;/h1&gt;
+&lt;h2&gt;This is an h2&lt;/h2&gt;
+&lt;h3&gt;This is an h3&lt;/h3&gt;
+&lt;h4&gt;This is an h4&lt;/h4&gt;
+&lt;h5&gt;This is an h5&lt;/h5&gt;
+&lt;h6&gt;This is an h6&lt;/h6&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;02&quot;&gt;👀 글자 스타일_text style&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;md&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-tiszgT-i grvsc-t4tStz-1&quot;&gt;*This is an italic*&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-tiszgT-b grvsc-t4tStz-1&quot;&gt;**This is an bold**&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;~~This is an strike~~&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;`This is an Inline code`&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;This is an italic&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;This is an bold&lt;/strong&gt;&lt;br&gt;
+&lt;del&gt;This is an strike&lt;/del&gt;&lt;br&gt;
+&lt;code&gt;This is an Inline code&lt;/code&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;03&quot;&gt;👀 수평선_horizn&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;md&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;**&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;___&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;셋 중 아무거나 사용해도 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;04&quot;&gt;👀 링크_link&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;md&quot; data-index=&quot;3&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-tiszgT-u grvsc-t4tStz-10&quot;&gt;This is a link&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-1&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(https://www.google.com)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;This is a link&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;👀 링크_link&lt;/h3&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;md&quot; data-index=&quot;4&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-tiszgT-u grvsc-t4tStz-10&quot;&gt;Site&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-1&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(http://naver.com/ &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-tiszgT-u grvsc-t4tStz-10&quot;&gt;&amp;quot;네이버로 이동&amp;quot;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;http://naver.com/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;http://naver.com/&quot; title=&quot;네이버로 이동&quot;&gt;Site&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://naver.com/&quot;&gt;http://naver.com/&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;05&quot;&gt;👀 목록_list&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;md&quot; data-index=&quot;5&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-12 grvsc-t4tStz-1&quot;&gt;- Fruit&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-12 grvsc-t4tStz-1&quot;&gt;    1. Apple&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-12 grvsc-t4tStz-1&quot;&gt;    2. Banana&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-12 grvsc-t4tStz-1&quot;&gt;- Meat&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ol&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Meat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;06&quot;&gt;👀 체크박스_CheckBox&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;md&quot; data-index=&quot;6&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-12 grvsc-t4tStz-1&quot;&gt;- [ ] 할일&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-12 grvsc-t4tStz-1&quot;&gt;    - &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-tiszgT-u grvsc-t4tStz-10&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-1&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-12 grvsc-t4tStz-1&quot;&gt; 일찍 일어나기&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-12 grvsc-t4tStz-1&quot;&gt;    - [ ] 일찍 자기&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-12 grvsc-t4tStz-1&quot;&gt;- [ ] 공부하기&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul class=&quot;contains-task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 할일
+&lt;ul class=&quot;contains-task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 일찍 일어나기&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 일찍 자기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 공부하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;06&quot;&gt;👀 인용_Blockquote&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;md&quot; data-index=&quot;7&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-9 grvsc-t4tStz-1&quot;&gt;&amp;gt; Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-9 grvsc-t4tStz-1&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-9 grvsc-t4tStz-1&quot;&gt;&amp;gt;&amp;gt; Aenean commodo ligula eget dolor.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Aenean commodo ligula eget dolor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;07&quot;&gt;👀 코드_Code&lt;/h2&gt;
+&lt;br&gt; 
+&lt;p&gt;function test() {
+console.log(&quot;hello world&quot;);
+}&lt;/p&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;javascript&quot; data-index=&quot;8&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-10 grvsc-t4tStz-5&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;() {&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-3&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-1&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;quot;hello world&amp;quot;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;백틱 뒤에 입력을 원하는 언어를 적어주면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;08&quot;&gt;👀 표_table&lt;/h2&gt;
+&lt;br&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;md&quot; data-index=&quot;9&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;| Default      | Align center | Align right |&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;| ------------ | :----------: | ------: |&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;| Carrot       | Red          | 1,000   |&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;| Banana       | Yellow       | 32,000  |&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Default&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;Align center&lt;/th&gt;
+&lt;th align=&quot;right&quot;&gt;Align right&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Carrot&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Red&lt;/td&gt;
+&lt;td align=&quot;right&quot;&gt;1,000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Banana&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;Yellow&lt;/td&gt;
+&lt;td align=&quot;right&quot;&gt;32,000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;reference&lt;/h2&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+  .github-light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .github-light-theme .grvsc-tiszgT-u {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  .github-light-theme .grvsc-tiszgT-i { font-style: italic; }
+  .github-light-theme .grvsc-tiszgT-b { font-weight: bold; }
+  .github-light-theme .grvsc-tiszgT-7 { color: #005CC5; }
+  .github-light-theme .grvsc-tiszgT-1 { color: #000000; }
+  .github-light-theme .grvsc-tiszgT-5 { color: #D73A49; }
+  .github-light-theme .grvsc-tiszgT-8 { color: #032F62; }
+  .github-light-theme .grvsc-tiszgT-12 { color: #735C0F; }
+  .github-light-theme .grvsc-tiszgT-9 { color: #22863A; }
+  .github-light-theme .grvsc-tiszgT-10 { color: #6F42C1; }
+  .github-light-theme .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(0, 0, 0, 0.05));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(0, 0, 0, 0.2));
+  }
+  body[data-theme=dark] .grvsc-ps-t4tStz { color: #ffffff; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-1 { color: #FFFFFF; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-5 { color: #BB97E7; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-9 { color: #EB7E81; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-10 { color: #9DCDF5; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-3 { color: #66B5F6; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(0, 0, 0, 0.05));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(0, 0, 0, 0.2));
+  }
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[개발자가 첫 직장에서 이직을 결심하게 된 계기]]></title><description><![CDATA[Category Test]]></description><link>https://minji0123.github.io/blog/category-test/</link><guid isPermaLink="false">https://minji0123.github.io/blog/category-test/</guid><pubDate>Sun, 22 May 2022 03:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Category Test&lt;/h2&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
