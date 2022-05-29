@@ -1,6 +1,6 @@
 {
-    "pasteImage.path": "${projectRoot}/src/images/2022/",
-    "pasteImage.basePath": "${projectRoot}/images/images/",
+    "pasteImage.path": "${projectRoot}/src/posts/blog/images/posts/2022/",
+    "pasteImage.basePath": "${projectRoot}/src/posts/blog/",
     "pasteImage.forceUnixStyleSeparator": true,
-    "pasteImage.prefix": "/src/images/"
+    "pasteImage.prefix": "../"
 }
