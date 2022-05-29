@@ -29,7 +29,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ data }) => {
         <article>
           <OuterWrapper>
             <InnerWrapper>
-              <div>
+              <div >
                 <header>
                   <Info>
                     <PostCategory>{category}</PostCategory>
